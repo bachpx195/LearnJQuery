@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LearnJQuery</title>
+    <script language="javascript" src="accets/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+    <input type="text" id="id-textbox" value=""/> <br/>
+    <input type="button" id="id-button" value="Alert"/>
+    <script language="JavaScript">
+        $('#id-button').click(function()
+        {
+            console.log('function');
+//            var object = $("id-textbox");
+//            alert(object.val());
+            var textbox = $('#id-textbox');
+            alert(textbox.val());
+        });
+//            $('#id-button').click(function()
+//            {
+//                // Cách 1: Khai báo biến và lấy giá trị
+//                var textbox = $('#id-textbox');
+//                alert(textbox.val());
+//
+//                // Cách 2: Truy xuất trực tiếp
+////                alert($('#id-textbox').val());
+//            });
+    </script>
+</body>
+</html>
